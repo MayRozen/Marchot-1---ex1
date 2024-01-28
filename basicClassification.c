@@ -45,7 +45,7 @@ int factorial(int pri){ //A function which help us to calculate the factorial of
     int ans=1;
 
     for(int i=pri; i>1; i--){ 
-        ans = ans*pri;
+        ans = ans*i;
     }
 
     return ans;
